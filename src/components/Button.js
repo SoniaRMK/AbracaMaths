@@ -7,6 +7,7 @@ export default class Button extends React.Component {
     this.buttonText = props.buttonText;
     this.orangeClassName = props.orangeClassName;
     this.cssClassName = props.cssClassName;
+    this.onButtonClick = props.onButtonClick;
   }
 
   render() {
@@ -14,6 +15,7 @@ export default class Button extends React.Component {
       <button
         type="button"
         className={`${this.orangeClassName} ${this.cssClassName}`}
+        onClick={() => this.onButtonClick(this.buttonText)}
       >
         {this.buttonText}
       </button>
@@ -29,4 +31,5 @@ Button.propTypes = {
   buttonText: PropTypes.string.isRequired,
   orangeClassName: PropTypes.string,
   cssClassName: PropTypes.string.isRequired,
+  onButtonClick: PropTypes.func.isRequired,
 };
