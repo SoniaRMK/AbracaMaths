@@ -6,3 +6,45 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+#root {
+  min-height: 700px;
+}
+
+.App {
+  max-width: 1000px;
+  margin: 20px auto;
+  box-shadow: inset -1px 4px 17px black;
+  padding: 20px;
+  min-height: 650px;
+  background: #ecf5ef;
+}
+
+nav {
+  padding-top: 35px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid green;
+  box-shadow: 0px 4px 0px black;
+  padding-right: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: #034538;
+  font-weight: 900;
+}
+
+header a:hover {
+  color: rgb(8, 110, 4);
+  text-decoration-line: overline underline;
+  zoom: 1.2;
+  border: none;
+}
+
+nav a {
+  padding: 0 20px;
+}

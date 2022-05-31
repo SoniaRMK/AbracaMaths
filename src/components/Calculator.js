@@ -29,27 +29,68 @@ function Calculator() {
 
   return (
     <div className="container">
+      <h2>Let&#39;s do some maths!</h2>
       <div className="calc-container">
-        <div className="screen" id="results">Results Here...</div>
-        <Button cssClassName="btn" buttonText="AC" onButtonClick={handleClick} />
-        <Button cssClassName="btn" buttonText="+/-" onButtonClick={handleClick} />
+        <div className="screen" id="results">
+          Results Here...
+        </div>
+        <Button
+          cssClassName="btn"
+          buttonText="AC"
+          onButtonClick={handleClick}
+        />
+        <Button
+          cssClassName="btn"
+          buttonText="+/-"
+          onButtonClick={handleClick}
+        />
         <Button cssClassName="btn" buttonText="%" onButtonClick={handleClick} />
-        <Button cssClassName="btn" buttonText="÷" orangeClassName="orange" onButtonClick={handleClick} />
+        <Button
+          cssClassName="btn"
+          buttonText="÷"
+          orangeClassName="orange"
+          onButtonClick={handleClick}
+        />
         <Button cssClassName="btn" buttonText="7" onButtonClick={handleClick} />
         <Button cssClassName="btn" buttonText="8" onButtonClick={handleClick} />
         <Button cssClassName="btn" buttonText="9" onButtonClick={handleClick} />
-        <Button cssClassName="btn" buttonText="x" orangeClassName="orange" onButtonClick={handleClick} />
+        <Button
+          cssClassName="btn"
+          buttonText="x"
+          orangeClassName="orange"
+          onButtonClick={handleClick}
+        />
         <Button cssClassName="btn" buttonText="4" onButtonClick={handleClick} />
         <Button cssClassName="btn" buttonText="5" onButtonClick={handleClick} />
         <Button cssClassName="btn" buttonText="6" onButtonClick={handleClick} />
-        <Button cssClassName="btn" buttonText="-" orangeClassName="orange" onButtonClick={handleClick} />
+        <Button
+          cssClassName="btn"
+          buttonText="-"
+          orangeClassName="orange"
+          onButtonClick={handleClick}
+        />
         <Button cssClassName="btn" buttonText="1" onButtonClick={handleClick} />
         <Button cssClassName="btn" buttonText="2" onButtonClick={handleClick} />
         <Button cssClassName="btn" buttonText="3" onButtonClick={handleClick} />
-        <Button cssClassName="btn" buttonText="+" orangeClassName="orange" onButtonClick={handleClick} />
-        <Button cssClassName="btn" buttonText="0" orangeClassName="zero" onButtonClick={handleClick} />
+        <Button
+          cssClassName="btn"
+          buttonText="+"
+          orangeClassName="orange"
+          onButtonClick={handleClick}
+        />
+        <Button
+          cssClassName="btn"
+          buttonText="0"
+          orangeClassName="zero"
+          onButtonClick={handleClick}
+        />
         <Button cssClassName="btn" buttonText="." onButtonClick={handleClick} />
-        <Button cssClassName="btn" buttonText="=" orangeClassName="orange" onButtonClick={handleClick} />
+        <Button
+          cssClassName="btn"
+          buttonText="="
+          orangeClassName="orange"
+          onButtonClick={handleClick}
+        />
       </div>
     </div>
   );
