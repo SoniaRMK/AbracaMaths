@@ -20,8 +20,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Clone this repository
 
 ```bash
-$ git clone https://github.com/SoniaKarungi/Maths-Magicians.git
-$ cd Maths-Magicians
+$ git clone https://github.com/SoniaKarungi/AbracaMaths.git
+$ cd AbracaMaths
 ```
 
 ### Run project
