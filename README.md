@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/SoniaKarungi/AbracaMaths/branch/develop/graph/badge.svg?token=3OIB6JY8KF)](https://codecov.io/gh/SoniaKarungi/AbracaMaths)
+
 # AbracaMaths
 
 "AbracaMaths" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
