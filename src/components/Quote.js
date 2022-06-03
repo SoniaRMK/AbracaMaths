@@ -13,20 +13,20 @@ export default function Quote() {
       <p
         data-testid="quote"
         style={{
-          textAlign: "center",
-          fontSize: "20px",
-          color: "#00ff15",
-          background: "black",
-          padding: "20px",
+          textAlign: 'center',
+          fontSize: '20px',
+          color: '#00ff15',
+          background: 'black',
+          padding: '20px',
         }}
       >
         {randomQuote.quote}
       </p>
       <p
         style={{
-          color: "grey",
-          textAlign: "center",
-          fontSize: "20px",
+          color: 'grey',
+          textAlign: 'center',
+          fontSize: '20px',
         }}
       >
         {randomQuote.author}

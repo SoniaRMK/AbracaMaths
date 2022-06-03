@@ -1,23 +1,23 @@
-import React from "react";
-import { fireEvent, render, screen } from "@testing-library/react";
-import renderer from "react-test-renderer";
-import Calculator from "../components/Calculator";
+import React from 'react';
+import { fireEvent, render, screen } from '@testing-library/react';
+import renderer from 'react-test-renderer';
+import Calculator from '../components/Calculator';
 
-describe("Calculator", () => {
-  it("renders correctly", () => {
+describe('Calculator', () => {
+  it('renders correctly', () => {
     const tree = renderer.create(<Calculator />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it("contains exactly 19 buttons", () => {
+  it('contains exactly 19 buttons', () => {
     render(<Calculator />);
 
-    const buttons = screen.getAllByRole("button");
+    const buttons = screen.getAllByRole('button');
 
     expect(buttons.length).toBe(19);
   });
 
-  it("returns the correct result after the 2 button is clicked", () => {
+  it('returns the correct result after the 2 button is clicked', () => {
     render(<Calculator />);
     const resultElement = screen.getByTestId(/results/);
     const twoButton = screen.getByText(/2/);
@@ -27,7 +27,7 @@ describe("Calculator", () => {
     expect(resultElement).toHaveTextContent(2);
   });
 
-  it("returns the correct result for addition operation", () => {
+  it('returns the correct result for addition operation', () => {
     render(<Calculator />);
     const resultElement = screen.getByTestId(/results/);
     const twoButton = screen.getByText(/2/);
@@ -42,7 +42,7 @@ describe("Calculator", () => {
     expect(resultElement).toHaveTextContent(4);
   });
 
-  it("returns the correct result for subtraction operation", () => {
+  it('returns the correct result for subtraction operation', () => {
     render(<Calculator />);
     const resultElement = screen.getByTestId(/results/);
     const twoButton = screen.getByText(/2/);
@@ -57,7 +57,7 @@ describe("Calculator", () => {
     expect(resultElement).toHaveTextContent(0);
   });
 
-  it("returns an error after division by 0 operation", () => {
+  it('returns an error after division by 0 operation', () => {
     render(<Calculator />);
     const resultElement = screen.getByTestId(/results/);
     const threeButton = screen.getByText(/3/);
@@ -73,7 +73,7 @@ describe("Calculator", () => {
     expect(resultElement).toHaveTextContent("Can't divide by 0.");
   });
 
-  it("returns an error after a modulo by 0 operation", () => {
+  it('returns an error after a modulo by 0 operation', () => {
     render(<Calculator />);
     const resultElement = screen.getByTestId(/results/);
     const threeButton = screen.getByText(/3/);
@@ -87,8 +87,7 @@ describe("Calculator", () => {
     fireEvent.click(equalButton);
 
     expect(resultElement).toHaveTextContent(
-      "Can't find modulo as can't divide by 0."
+      "Can't find modulo as can't divide by 0.",
     );
   });
-
 });
