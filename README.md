@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/SoniaKarungi/AbracaMaths/branch/develop/graph/badge.svg?token=3OIB6JY8KF)](https://codecov.io/gh/SoniaKarungi/AbracaMaths)
+
 # AbracaMaths
 
 "AbracaMaths" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
@@ -26,8 +28,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Clone this repository
 
 ```bash
-$ git clone https://github.com/SoniaKarungi/Maths-Magicians.git
-$ cd Maths-Magicians
+$ git clone https://github.com/SoniaKarungi/AbracaMaths.git
+$ cd AbracaMaths
 ```
 
 ### Run project

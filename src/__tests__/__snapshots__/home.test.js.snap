@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders correctly 1`] = `
+<main>
+  <h2
+    style={
+      Object {
+        "color": "red",
+        "textAlign": "center",
+      }
+    }
+  >
+    Welcome to AbraMaths!
+  </h2>
+  <p
+    style={
+      Object {
+        "fontSize": "20px",
+        "textAlign": "center",
+      }
+    }
+  >
+    Here you will get to experience the magic that is Maths!
+    <br />
+    <br />
+    Use the calculator to make all the basic maths calculation.
+    <br />
+    <br />
+    You also get to read a random maths quote!
+  </p>
+  <div
+    id="infinity"
+  />
+</main>
+`;

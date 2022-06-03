@@ -11,6 +11,7 @@ export default function Quote() {
   return (
     <div>
       <p
+        data-testid="quote"
         style={{
           textAlign: 'center',
           fontSize: '20px',

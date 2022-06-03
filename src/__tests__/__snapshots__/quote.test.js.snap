@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote renders correctly 1`] = `
+<div>
+  <p
+    data-testid="quote"
+    style={
+      Object {
+        "background": "black",
+        "color": "#00ff15",
+        "fontSize": "20px",
+        "padding": "20px",
+        "textAlign": "center",
+      }
+    }
+  />
+  <p
+    style={
+      Object {
+        "color": "grey",
+        "fontSize": "20px",
+        "textAlign": "center",
+      }
+    }
+  />
+</div>
+`;
