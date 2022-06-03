@@ -14,7 +14,7 @@ function Calculator() {
   useEffect(() => {
     const responseElement = document.getElementById('results');
     const { total, next } = calcObject;
-    responseElement.textContent = next || total || 0;
+    responseElement.textContent = next || total;
   });
 
   const handleClick = (buttonName) => {
@@ -31,7 +31,7 @@ function Calculator() {
     <div className="container">
       <h2>Let&#39;s do some maths!</h2>
       <div className="calc-container">
-        <div className="screen" id="results">
+        <div className="screen" id="results" data-testid="results">
           Results Here...
         </div>
         <Button
