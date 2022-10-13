@@ -55,6 +55,10 @@ Go to http://localhost:3000/
 
 - GitHub: [@SoniaKarungi](https://github.com/SoniaKarungi)
 
+👤 **Lexsa Campbell**
+
+- GitHub: [@lexsac](https://github.com/lexsac)
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
